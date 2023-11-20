@@ -6,13 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./background.component.scss']
 })
 export class BackgroundComponent {
-
   isRed = false;
 
-
-change() {
-  this.isRed = !this.isRed;
-}
-
-
+  change() {
+    this.isRed = !this.isRed;
+  }
 }
