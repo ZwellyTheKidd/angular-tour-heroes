@@ -21,7 +21,6 @@ import { MessagesComponent } from './messages/messages.component';
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
-    HeroDetailComponent,
 
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
     // and returns simulated server responses.
@@ -34,7 +33,7 @@ import { MessagesComponent } from './messages/messages.component';
     AppComponent,
     DashboardComponent,
     HeroesComponent,
-    
+    HeroDetailComponent,
     MessagesComponent,
     HeroSearchComponent
   ],
