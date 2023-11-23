@@ -1,4 +1,5 @@
 Angular In-Memory API Project
+
 This project is an Angular application written in TypeScript, utilizing the in-memory API for mock data, and RxJS for handling asynchronous operations.
 
 Table of Contents
