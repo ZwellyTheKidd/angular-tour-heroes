@@ -1,5 +1,4 @@
 /* HeroSearch private styles */
-
 label {
     display: block;
     font-weight: bold;
@@ -8,12 +7,21 @@ label {
     margin-bottom: .5rem;
   
   }
+  .search-component{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.2em;   
+  }
+
   input {
-    padding: .5rem;
-    width: 100%;
-    max-width: 600px;
+    padding: .5em 5em;
+    width: 75%;
     box-sizing: border-box;
     display: block;
+    margin-top: 1em;
+    
   }
   
   input:focus {
@@ -22,6 +30,7 @@ label {
   
   li {
     list-style-type: none;
+    width: 100%;
   }
   .search-result li a {
     border-bottom: 1px solid gray;
@@ -29,7 +38,6 @@ label {
     border-right: 1px solid gray;
     display: inline-block;
     width: 100%;
-    max-width: 600px;
     padding: .5rem;
     box-sizing: border-box;
     text-decoration: none;

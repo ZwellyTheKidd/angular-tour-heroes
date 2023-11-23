@@ -4,13 +4,23 @@
   list-style-type: none;
   padding: 0;
   width: 15em;
+  margin-bottom: 4em;
+}
+.add-hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2em;
+}
+.hero-list{
+ padding: 0 5em;
 }
 
 input {
   display: block;
-  width: 100%;
+  width: 40%;
   padding: .5rem;
-  margin: 1rem 0;
+  margin: 2em 0 0.5em 0;
   box-sizing: border-box;
 }
 
@@ -65,7 +75,10 @@ input {
 .add-button {
  padding: .5rem 1.5rem;
  font-size: 1rem;
- margin-bottom: 2rem;
+ background: rgb(0,123,255) ;
+ border-radius: 1em;
+ color: white;
+ margin-top: 1.2em;
 }
 
 .add-button:hover {
@@ -85,6 +98,6 @@ button.delete {
 }
 
 button.delete:hover {
-  background-color: #525252;
+  background-color: red;
   color: white;
 }

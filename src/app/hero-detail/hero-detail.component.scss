@@ -1,4 +1,24 @@
 /* HeroDetailComponent's private CSS styles */
+.details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+
+}.hero-input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h2{
+  font-weight: bold;
+}
+h2 span{
+  font-weight: normal;
+  color: gray;
+}
+
 label {
   color: #435960;
   font-weight: bold;
@@ -11,9 +31,17 @@ button {
   margin-top: 20px;
   margin-right: .5rem;
   background-color: #eee;
-  padding: 1rem;
+  padding: 0.2em 2em;
   border-radius: 4px;
   font-size: 1rem;
+}
+button.save{
+  background: #007BFF;
+  color: white;
+}
+button.back{
+  background: rgb(108,116,124);
+  color: white;
 }
 button:hover {
   background-color: #cfd8dc;
