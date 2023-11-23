@@ -1,27 +1,61 @@
-# AngularTourOfHeroes
+Angular In-Memory API Project
+This project is an Angular application written in TypeScript, utilizing the in-memory API for mock data, and RxJS for handling asynchronous operations.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.5.
+Table of Contents
+Description
+Features
+Getting Started
+Prerequisites
+Installation
+Usage
+Built With
+Contributing
+License
+Acknowledgments
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Description
+This Angular project serves as a template for building web applications using Angular, TypeScript, and the in-memory API. It is equipped with examples of common Angular features and patterns and is configured to work with RxJS for efficient handling of asynchronous tasks.
 
-## Code scaffolding
+Features
+Angular components and services structure.
+In-memory API for simulating a backend server.
+Example usage of RxJS for handling asynchronous operations.
+Responsive design with Angular Material components.
+Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Prerequisites
+Make sure you have the following tools installed:
 
-## Build
+Node.js
+npm (comes with Node.js installation)
+Angular CLI
+Installation
+Clone the repository:
+git clone [https://github.com/your-username/angular-in-memory-api.git](https://github.com/ZwellyTheKidd/angular-tour-heroes)
+cd angular-in-memory-api
+Install dependencies:
+bash
+npm install
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+Usage
+Run the development server:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ng serve
+Navigate to http://localhost:4200/ in your browser to see the application.
 
-## Running end-to-end tests
+Built With
+Angular - The web framework used.
+TypeScript - Typed superset of JavaScript.
+In-memory API - Backend-less HTTP services.
+RxJS - Reactive Extensions library for JavaScript.
+Contributing
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Acknowledgments
+Inspiration from Angular official documentation.
